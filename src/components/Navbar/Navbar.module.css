@@ -1,0 +1,16 @@
+
+.nav{
+    grid-area: n;
+    background: lightpink;
+    height: 800px;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav div{
+    padding: 10px;
+}

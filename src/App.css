@@ -9,37 +9,3 @@
                          "n c";
 }
 
-.header{
-    grid-area: h;
-    background: lightgreen;
-}
-
-.nav{
-    grid-area: n;
-    background: lightpink;
-    height: 800px;
-
-}
-
-.content{
-    grid-area: c;
-    height: 800px;
-    background: lightblue;
-
-}
-
-.content img{
-    width: 100%;
-    overflow: hidden;
-}
-
-.header img {
-    width: 50px;
-    height: auto;
-}
-
-.avatar img{
-    width: 80px;
-
-}
-
