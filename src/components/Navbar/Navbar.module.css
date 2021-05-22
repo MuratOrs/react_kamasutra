@@ -3,10 +3,10 @@
     grid-area: n;
     background: lightpink;
     min-height: 800px;
-
+    min-width: 180px;
 }
 
-a {
+nav a {
     color: #fff;
     text-decoration: none;
 }
@@ -16,5 +16,6 @@ a {
 }
 
 .active {
-     background: orange;
+     color: black;
 }
+
