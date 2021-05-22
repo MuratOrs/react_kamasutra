@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+React.createElement('div',null,'Simple div with text');
+React.createElement('input', {className:'just-class'});
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
