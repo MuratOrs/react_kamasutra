@@ -16,6 +16,7 @@ const App = () => {
                 <Navbar/>
                 <div className='app-wrapper-content'>
                     <Route path="/profile" component={Profile}/>
+                    {/*Точный путь exact перед path*/}
                     <Route path="/dialogs" component={Dialogs}/>
                     <Route path="/news" component={News}/>
                     <Route path="/music" component={Music}/>
