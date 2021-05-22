@@ -4,8 +4,8 @@ import MyPosts from "../MyPosts/MyPosts";
 
 const Profile = () => {
     return (
-        <div className={s.content}>
-            <div>
+        <div>
+            <div className='content-img'>
                 <img src="https://scx2.b-cdn.net/gfx/news/2019/2-nature.jpg" alt=""/>
             </div>
             <MyPosts/>
