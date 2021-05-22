@@ -5,13 +5,15 @@ import Post from "./Post/Post";
 const MyPosts = () => {
     return(
         <div>
-            <div>
-                My posts
+            <div className={s.postsBlock}>
+                <h3>My posts</h3>
             </div>
             <div>
-                <textarea></textarea>
-                <button>Add post</button>
-                <button>Remove</button>
+                <div className={s.textArea}><textarea></textarea></div>
+                <div className={s.buttons}>
+                    <button>Add post</button>
+                    <button>Remove</button>
+                </div>
             </div>
             <div className={s.posts}>
                 <Post name='Murat' message ='How are you?' count='15'/>
