@@ -2,7 +2,7 @@
 .nav{
     grid-area: n;
     background: lightpink;
-    height: 800px;
+    min-height: 800px;
 
 }
 
@@ -13,4 +13,8 @@ a {
 
 .nav div{
     padding: 10px;
+}
+
+.active {
+     background: orange;
 }

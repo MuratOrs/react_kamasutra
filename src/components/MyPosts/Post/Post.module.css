@@ -1,0 +1,16 @@
+.item {
+    color: red;
+}
+
+.avatar img{
+    width: 80px;
+}
+
+.name{
+    color: black;
+    background: #000;
+    display: inline;
+    color: #fff;
+    padding: 0 10px;
+    margin-right: 10px;
+}

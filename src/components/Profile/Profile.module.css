@@ -1,6 +1,6 @@
 .content{
     grid-area: c;
-    height: 800px;
+    min-height: 800px;
     background: lightblue;
 
 }
@@ -9,12 +9,12 @@
     width: 100%;
     overflow: hidden;
 }
-
-.avatar img{
-    width: 80px;
-}
-
 .item{
     color: forestgreen;
+    font-weight: bold;
+}
+
+.item active{
+    color: goldenrod;
     font-weight: bold;
 }
