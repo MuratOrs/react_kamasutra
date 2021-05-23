@@ -8,16 +8,16 @@ import Settings from "./components/Settings/Settings";
 import News from "./components/News/News";
 import {BrowserRouter, Route} from "react-router-dom";
 
-const App = () => {
+const App = (props) => {
     return (
         <BrowserRouter>
             <div className='app-wrapper'>
                 <Header/>
                 <Navbar/>
                 <div className='app-wrapper-content'>
-                    <Route path="/profile" render={() => <Profile/>}/>
+                    <Route path="/profile" render={() => <Profile posts={props.posts}/>}/>
                     {/*Точный путь exact перед path*/}
-                    <Route path="/dialogs" render={() => <Dialogs/>}/>
+                    <Route path="/dialogs" render={() => <Dialogs dialogs={props.dialogs} message={props.messages}/>}/>
                     <Route path="/news" render={News}/>
                     <Route path="/music" render={Music}/>
                     <Route path="/settings" render={Settings}/>
