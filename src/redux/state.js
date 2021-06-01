@@ -28,8 +28,10 @@ let state = {
             { id: 7, name: 'Nikola'},
         ],
     }
-
 }
+
+
+let newPost
 
 export default state;
 
